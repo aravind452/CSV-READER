@@ -8,6 +8,7 @@ namespace CSV
         public static List<List<string>> ParseCsv(string filePath, char delimiter = ';')
         {
             var result = new List<List<string>>();
+            // 
 
             using (var reader = new StreamReader(filePath))
             {
